@@ -1,8 +1,6 @@
 ## Task
 
-We're going to use the Eleventy base blog repository to get going quicker. Clone the repository with the following command:
-
-`git clone https://github.com/11ty/eleventy-base-blog.git eleventy-blog`
+We're going to use the Eleventy base blog repository to get going quicker.
 
 1. Clone the Eleventy base blog repository
 
@@ -14,13 +12,13 @@ We're going to use the Eleventy base blog repository to get going quicker. Clone
 
    `cd eleventy-blog`{{execute}}
 
-   Specifically have a look at `.eleventy.js`{{open}} to see if you want to configure any Eleventy options differently.
+   Specifically have a look at `eleventy-blog/.eleventy.js`{{open}} to see if you want to configure any Eleventy options differently.
 
 1. Install dependencies
 
    `npm install`{{execute}}
 
-1. Edit `_data/metadata.json`{{open}}
+1. Edit `eleventy-blog/_data/metadata.json`{{open}}
 
 1. Run Eleventy
 
@@ -29,6 +27,10 @@ We're going to use the Eleventy base blog repository to get going quicker. Clone
    to waiting. If you want to end the command you can press <kbd>Ctrl</kbd><kbd>C</kbd>.
 
    `npx eleventy --serve`{{execute}}
+
+1. View the site at https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+   
+   (If you're running locally just use the URL displayed when you ran `npx eleventy --serve`.) 
 
 ### Implementation Notes
 
