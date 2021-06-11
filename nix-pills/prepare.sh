@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-useradd -m pills
-mkdir -m 0755 /nix && chown pills /nix
+user=nix
+(
+  useradd -m $user;
+  mkdir -m 0755 /nix && chown $user /nix;
 
-sudo -s -u pills
-cd "$HOME"
+  sudo -s -u $user;
+  cd "$HOME" || exit 1;
+) > /dev/null
