@@ -1,0 +1,47 @@
+{
+  "title": "Nix Pills",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Why you should give it a try",
+        "text": "01-why-you-should-give-it-try.md"
+      },
+      {
+        "title": "Install on your running system",
+        "text": "02-install-on-your-running.md"
+      },
+      {
+        "title": "Enter the environment",
+        "text": "03-enter-environment.md"
+      },
+      {
+        "title": "The basics of the language",
+        "text": "04-basics-of-language.md"
+      },
+      {
+        "title": "Functions and imports",
+        "text": "05-functions-and-imports.md"
+      },
+      {
+        "title": "Our first derivation",
+        "text": "06-our-first-derivation.md"
+      }
+    ],
+    "intro": {
+      "text": "00-nix-pills.md",
+      "code": "prepare.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
