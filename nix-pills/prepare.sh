@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-mkdir -m 0755 /nix && chown pills /nix
-
 useradd -m pills
+mkdir -m 0755 /nix && chown pills /nix
 
 sudo -s -u pills
 cd "$HOME"
